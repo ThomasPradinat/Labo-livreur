@@ -12,3 +12,5 @@ J'y ajoute certains fichier qui ont été créé pour la navigation au sein mêm
 Pour tester ces programmes, je vous encourrage donc à télécharger les packages du Turtlebot :
 https://github.com/ROBOTIS-GIT/turtlebot3.git
 https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+
+Les codes fonctionnent sur ubuntu 20.04 en utilisant ROS1 Noetic
