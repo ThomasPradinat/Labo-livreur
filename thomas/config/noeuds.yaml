@@ -1,0 +1,140 @@
+OO:
+  x: 0
+  y: 0
+  voisins: [] 
+A:
+  x: 0
+  y: 0
+  voisins: [XA]
+B:
+  x: 18.03
+  y: 0.24
+  voisins: [XC]
+C:
+  x: 16.58
+  y: 4.92
+  voisins: [XC]
+D:
+  x: 19.11
+  y: 9.32
+  voisins: [XE]
+E:
+  x: 9.28
+  y: 12.66
+  voisins: [XF]
+F:
+  x: 9.09
+  y: 5.47
+  voisins: [XG]
+G:
+  x: 5.57
+  y: 12.40
+  voisins: [XH]
+H:
+  x: -0.20
+  y: 12.61
+  voisins: [XH]
+I:
+  x: 3.53
+  y: 4.29
+  voisins: [XI]
+J:
+  x: 25.20
+  y: 10.69
+  voisins: [XJ]
+K:
+  x: 31.06
+  y: 12.89
+  voisins: [XJ]
+L:
+  x: 37.21
+  y: 12.95
+  voisins: [XK]
+M:
+  x: 41.44
+  y: 12.40
+  voisins: [XK]
+N:
+  x: 25.75
+  y: 4.38
+  voisins: [XL]
+O:
+  x: 30.11
+  y: 4.31
+  voisins: [XM]
+P:
+  x: 33.65
+  y: 4.43
+  voisins: [XN]
+Q:
+  x: 37.45
+  y: 4.51
+  voisins: [XO]
+R:
+  x: 41.59
+  y: 4.42
+  voisins: [XP]
+XA:
+  x: 12.44
+  y: 0.66
+  voisins: [A, XF, XB]
+XB:
+  x: 22.37
+  y: -2.16
+  voisins: [XA, XC, XL]
+XC:
+  x: 21.89
+  y: 3.30
+  voisins: [B, C, XB, XD]
+XD:
+  x: 22.28
+  y: 7.37
+  voisins: [XC, XE, XJ]
+XE:
+  x: 15.60
+  y: 12.60
+  voisins: [D, XD, XF]
+XF:
+  x: 12.61
+  y: 7.97
+  voisins: [E, XA, XE, XG]
+XG:
+  x: 6.15
+  y: 8.43
+  voisins: [F, XF, XH]
+XH: 
+  x: 2.42
+  y: 8.35
+  voisins: [G, H, XG, XI]
+XI:
+  x: -1.45
+  y: 7.18
+  voisins: [I, XH]
+XJ:
+  x: 29.04
+  y: 7.28
+  voisins: [J, K, XD, XK]
+XK:
+  x: 38.90
+  y: 7.36
+  voisins: [L, M, XJ]
+XL:
+  x: 26.38
+  y: -2.80
+  voisins: [N, XB, XM]
+XM:
+  x: 30.21
+  y: -2.51
+  voisins: [O, XL, XN]
+XN:
+  x: 33.75
+  y: -2.36
+  voisins: [P, XM, XO]
+XO:
+  x: 37.59
+  y: -2.36
+  voisins: [Q, XN, XP]
+XP:
+  x: 41.27
+  y: -2.40
+  voisins: [R, XO]

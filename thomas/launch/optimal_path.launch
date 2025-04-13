@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Lancer le nœud qui résout le TSP -->
+    <node name="path_finding" pkg="thomas" type="path_finding" output="screen">
+        <param name="noeuds_file" value="$(find thomas)/noeuds.yaml"/>
+        <param name="objectifs_file" value="$(find thomas)/objectifs.yaml"/>
+        <param name="use_sim_time" value="true" />
+    </node>
+
+    <!-- Lancer un second nœud qui lit le topic tsp_path -->
+    <node name="path_maker" pkg="thomas" type="path_maker" output="screen">
+        <param name="goals_yaml" value="$(find thomas)/config/goals.yaml" />
+    </node>
+</launch>
+

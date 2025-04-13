@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <param name="goals_yaml" value="$(find thomas)/config/goals.yaml" />
+    <param name="route_yaml" value="$(find thomas)/config/route.yaml" />
+    <node pkg="thomas" type="multi_goal" name="multi_goal_publisher" output="screen"/>
+</launch>
