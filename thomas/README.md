@@ -24,7 +24,7 @@ Il lie le contenu du topic "tsp_path", c'est un simple subscriber
 
 ## 5. path_maker.cpp
 Ce programme est un mélange de multi_goal.cpp et de path_listener.cpp
-Il envoie différents goals à MoveBase en prennant en référence les coordonnées entrées dans goals.yaml mais la liste des goals a envoyé ne vient plus d'un fichier .yaml mais est lue dans le topic tsp_path envoyé par path_finding.cpp
+Il envoie différents goals à MoveBase en prennant en référence les coordonnées entrées dans goals.yaml. La liste des goals a envoyé ne vient plus d'un fichier .yaml mais est lue dans le topic tsp_path envoyé par path_finding.cpp
 
 # Les fichier .launch sont à découvrir dans l'ordre suivant : 
 ## 1. sans rien
