@@ -14,3 +14,6 @@ https://github.com/ROBOTIS-GIT/turtlebot3.git
 https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 
 Les codes fonctionnent sur ubuntu 20.04 en utilisant ROS1 Noetic
+
+
+Tout les document à l'intérieur du dossier Avancement_projet ne sont là qu'à titre informatif, ils contituent diverses notes personnelle que j'ai pris tout au long du projet et ne représente en rien un rendu.
